@@ -31,17 +31,17 @@ section {
 
 .nama {
   color: #37A2EA;
-  filter: drop-shadow(0 0 0.75rem #37A2EA);
+  filter: drop-shadow(0 0 0.45rem #37A2EA);
 }
 
 .asal {
   color: #FCCACB;
-  filter: drop-shadow(0 0 0.75rem #FCCACB);
+  filter: drop-shadow(0 0 0.45rem #FCCACB);
 }
 
 .kampus {
   color: #F4f4f4;
-  filter: drop-shadow(0 0 0.75rem #F4f4f4);
+  filter: drop-shadow(0 0 0.45rem #F4f4f4);
 }
 
 .underlined {
