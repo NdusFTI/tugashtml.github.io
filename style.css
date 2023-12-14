@@ -108,6 +108,7 @@ section {
   font-weight: 700;
   padding: 10px;
   border-radius: 10px;
+  border: 1px solid #29373D;
   transition: scale ease-in 0.2s;
   background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
 }
