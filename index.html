@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ndusft - 7123108 - Personal Web Page</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="navbar center">
+      <h1>== Welcome to My Page ==</h1>
+    </header>
+
+    <!-- About -->
+    <section class="home center">
+      <h1 class="underlined">About Me</h1>
+      <div class="about">
+        <img src="/img/Foto.png" alt="Foto Saya">
+        <div class="about-text">
+          <h1>Hello 👋,</h1>
+          <p>
+            Nama Saya <span class="bold nama">Bernadus Xaverius Hitipeuw</span>, <br>
+            Saya berasal dari <span class="bold asal">Kota Yogyakarta, DIY, Indonesia</span>, <br>
+            Mahasiswa <span class="bold kampus">Duta Wacana Christian University</span>.
+          </p>
+          <br>
+          <div class="btn">
+            <a class="instagram" href="https://www.instagram.com/ndusft/" target="_blank">@ndusft</a>
+            <button class="changeBtn" id="changeBtn">Change Background</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skillset center">
+      <h1 class="underlined">Skillset</h1>
+      <p>Beberapa Skillset yang saya pelajari:</p>
+      <div class="skills">
+        <a href="https://www.w3schools.com/html/" target="_blank"><img src="/img/HTML.png" alt="HTML"></a>
+        <a href="https://www.w3schools.com/css/" target="_blank"><img src="/img/CSS.png" alt="CSS"></a>
+        <a href="https://www.w3schools.com/js/" target="_blank"><img src="/img/Javascript.png" alt="Javascript"></a>
+        <a href="https://www.w3schools.com/c/" target="_blank"><img src="/img/C.png" alt="C"></a>
+        <a href="https://www.w3schools.com/python/" target="_blank"><img src="/img/Python.png" alt="Python"></a>
+        <a href="https://www.w3schools.com/react/" target="_blank"><img src="/img/React.png" alt="React"></a>
+      </div>
+    </section>
+
+    <footer class="center">
+      <h1>Thanks you for visiting my personal web page.</h1>
+      <p>@2023 Ndusft.</p>
+    </footer>
+
+    <script>
+      const bodyElement = document.body;
+
+      function changeColorRandom() {
+        const warnaList = ["#F56565", "#48BB78", "#4299E1", "#E8EAEC"]
+        const randomIndex = Math.floor(Math.random() * warnaList.length);
+        const warnaRandom = warnaList[randomIndex];
+        bodyElement.style.backgroundColor = warnaRandom;
+      }
+
+      const changeBtn = document.querySelector('#changeBtn')
+      changeBtn.addEventListener("click", function() {
+        changeColorRandom()
+      })
+    </script>
+  </body>
+</html>

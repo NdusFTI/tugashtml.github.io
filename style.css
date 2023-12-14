@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: "Nunito Sans";
+}
+
+body {
+  color: #f2f2f2;
+  background-color: #0F191E;
+  transition: background-color ease-in-out 0.3s;
+}
+
+section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.nama {
+  color: #37A2EA;
+  filter: drop-shadow(0 0 0.75rem #37A2EA);
+}
+
+.asal {
+  color: #FCCACB;
+  filter: drop-shadow(0 0 0.75rem #FCCACB);
+}
+
+.kampus {
+  color: #F4f4f4;
+  filter: drop-shadow(0 0 0.75rem #F4f4f4);
+}
+
+.underlined {
+  text-decoration: underline wavy #37A2EA 3px;
+}
+
+/* WelcomeBar */
+
+.navbar {
+  width: 50%;
+  padding: 15px 15px;
+  border: 1px solid #29373D;
+  background-color: #1A2B32;
+  text-align: center;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.navbar h1 {
+  font-size: 30px;
+}
+
+/* About */
+
+.home {
+  width: 40%;
+  padding: 30px;
+  border: 1px solid #29373D;
+  background-color: #1A2B32;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.home h1 {
+  font-size: 30px;
+  font-weight: 800;
+  text-align: left;
+}
+
+.about {
+  display: flex;
+  gap: 35px;
+  margin-top: 25px;
+}
+
+.about img {
+  border-radius: 20px;
+  border: 1px solid #29373D;
+  width: 128px;
+}
+
+.about-text {
+  text-align: left;
+}
+
+.btn {
+  display: flex;
+  gap: 20px;
+}
+
+.instagram {
+  text-decoration: none;
+  color: #f2f2f2;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 10px;
+  transition: scale ease-in 0.2s;
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+}
+
+.instagram:hover {
+  scale: 1.1;
+}
+
+.changeBtn {
+  padding: 11px;
+  cursor: pointer;
+  background-color: #3182CE;
+  border: 1px solid #29373D;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #f2f2f2;
+  font-weight: 700;
+  transition: scale ease-in 0.2s;
+}
+
+.changeBtn:hover {
+  scale: 1.05;
+}
+
+/* Skillset */
+
+.skillset {
+  width: 35%;
+  padding: 25px 45px;
+  border: 1px solid #29373D;
+  background-color: #1A2B32;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.skillset h1 {
+  font-size: 30px;
+  font-weight: 800;
+  text-align: left;
+}
+
+.skillset p {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.skills {
+  margin-top: 30px;
+}
+
+.skills img {
+  width: 56px;
+  transition: scale ease-in 0.3s;
+}
+
+.skills img:hover {
+  scale: 1.2;
+}
+
+/* Footer */
+
+footer {
+  width: 50%;
+  padding: 15px 15px;
+  border: 1px solid #29373D;
+  background-color: #1A2B32;
+  text-align: center;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+footer h1 {
+  font-size: 20px;
+}
+
+
+footer p {
+  font-size: 13px;
+}
